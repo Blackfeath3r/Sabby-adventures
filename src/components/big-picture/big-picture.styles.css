@@ -59,10 +59,12 @@
 @media screen and (max-width:800px){
 
   .img-container img{
-    top:55%;
+    padding:20px 0px;
+    top:50%;
   }
 
   .close-icon img {
+    padding:4px;
     top:10%;
     width: 5%;
     transform: translate(-2%,-70%);
@@ -70,20 +72,22 @@
 
   .left-icon {
     position: fixed;
-    width: 40.5%;
+    padding:4px;
+    width: 10.5%;
     top: 50%;
     left:5%;
-    opacity: 0;
+    opacity: .5;
     transform: translate(-50%,-50%);
     z-index: 1;
   }
   
   .right-icon {
     position: fixed;
-    width: 40.5%;
+    padding:4px;
+    width: 10.5%;
     top: 50%;
-    right:2%;
-    opacity: 0;
+    right:5%;
+    opacity: .5;
     transform: translate(50%,-50%);
   }
 }
